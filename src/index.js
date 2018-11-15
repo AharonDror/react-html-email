@@ -7,6 +7,7 @@ import Row from './components/Row'
 import Col from './components/Col'
 import Span from './components/Span'
 import A from './components/A'
+import NestedBox from './components/NestedBox'
 import renderEmail from './renderEmail'
 
 const DEV = typeof process !== 'undefined' && process.env && process.env.NODE_ENV !== 'production'
@@ -25,6 +26,7 @@ export {
   Col,
   Span,
   A,
+  NestedBox,
   configStyleValidator,
   renderEmail,
 }
